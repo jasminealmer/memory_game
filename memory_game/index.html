@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Schmemory Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header>
+  <h1>Welcome to The Schmemory Game!</h1>
+  <h2>
+    <div class="popup" onclick="schmemoryInstructions()"><img src="assets/img/arrow.png" alt="How do I play?" height="11" width="13" id="arrow">How do I play?
+      <span class="popupText" id="instructionsPopup">
+        <p>1. Click on two cards of your choice.</p>
+        <p>2. If the cards are a match, you continue to play two more cards.</p>
+        <p>3. If the cards are no match, the cards will flip back and you can start over with two new cards.</p>
+        <p>4. When all cards are matched - you win!</p>
+        <p>Click again and LET'S GO!</p></span>
+    </div>
+  </h2>
+  </header>
+
+  <main>
+    <div class="schmemory">
+      <div class="card" data-value="flamingo">
+        <img class="front-side" src="assets/img/flamingo.jpg" alt="Flamingo"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="panda">
+        <img class="front-side" src="assets/img/panda.jpg" alt="Panda"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="frog">
+        <img class="front-side" src="assets/img/frog.jpg" alt="Frog"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="flamingo">
+        <img class="front-side" src="assets/img/flamingo.jpg" alt="Flamingo"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="frog">
+        <img class="front-side" src="assets/img/frog.jpg" alt="Frog"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="panda">
+        <img class="front-side" src="assets/img/panda.jpg" alt="Panda"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="cat">
+        <img class="front-side" src="assets/img/cat.jpg" alt="Cat"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="cat">
+        <img class="front-side" src="assets/img/cat.jpg" alt="Cat"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="giraffe">
+        <img class="front-side" src="assets/img/giraffe.jpg" alt="Giraffe"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="duck">
+        <img class="front-side" src="assets/img/duck.jpg" alt="Duck"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="giraffe">
+        <img class="front-side" src="assets/img/giraffe.jpg" alt="Giraffe"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+      <div class="card" data-value="duck">
+        <img class="front-side" src="assets/img/duck.jpg" alt="Duck"/>
+        <img class="back-side" src="assets/img/schmemory.png" alt="Schmemory"/>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Thank you Tomas for taking part in The Schmemory Game
+  </footer>
+  </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/popup.js"></script>
+</body>
+
+</html>
